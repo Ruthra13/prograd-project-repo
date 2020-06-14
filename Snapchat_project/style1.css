@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+    background: whitesmoke;
+}
+
+.icon {
+    width: 30px;
+    max-height: 50px;
+    border: 0px solid black;
+    border-image-width: 2em;
+}
+
+.nav-link {
+    font-size: 1.3em;
+    font-weight: 900;
+    text-decoration-line: none;
+    color: black;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0 250px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+#multi-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: black;
+}
+
+.l1word1 {
+    -webkit-text-stroke: 0.7px black;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+        -1px -1px 0 #000;
+    font-size: 25px;
+    color: lightseagreen;
+    border-color: black;
+    text-decoration-color: black;
+}
+
+.l2word1 {
+    -webkit-text-stroke: 0.7px black;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+        -1px -1px 0 #000;
+    font-size: 25px;
+    color: lightblue;
+    text-decoration-color: black;
+}
+
+.word2 {
+    font-weight: 900;
+    font-size: large;
+}
+
+.l1word3 {
+    background-color: black;
+    background-size: 300px 100px;
+    color: white;
+    font-size: 15px;
+    width: 75%;
+    padding-left: 4px;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.l1word4,
+.l2word4,
+.l3word4 {
+    margin-left: 10px;
+}
+
+.l2word3 {
+    -webkit-text-stroke: 0.7px black;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: orange;
+    border: black;
+}
+
+.l3word1 {
+    background-image: linear-gradient(to left,
+            indigo,
+            skyblue,
+            green,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.l3word3 {
+    -webkit-text-stroke: 0.8px black;
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    color: darkorange;
+    border: black;
+}
+
+.l1word4,
+.l2word4,
+.l3word4 {
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-shrink {
+    width: 350px;
+    max-height: 350px;
+    border: 0px solid black;
+    border-image-width: 1.7em;
+}
+
+#real {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#butt {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+    background: white;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+    border-color: yellow;
+    width: 10%;
+    border-radius: 20px;
+    border-style: none;
+    margin: 20px 590px;
+}
+
+#head-id {
+    background-color: yellow;
+}
+
+.para {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.para1 {
+    text-align: center;
+    margin: 0 98px;
+}
+
+.sec-link {
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-decoration-line: none;
+}
+
+.sec1-link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    line-height: 21px;
+}
+
+#lang {
+
+    margin-bottom: 30px;
+    margin-left: 213px;
+    line-height: 25px;
+}
+
+
+.last,
+.last1 {
+    font-size: 1.3em;
+    color: rgb(220, 218, 218);
+    text-decoration: none;
+    margin-left: 210px;
+}
+
+.last1 {
+    margin-left: 45px;
+}
+
+.foot-link {
+    margin-top: 30px;
+    line-height: 45px;
+    background-color: black;
+}
